@@ -1,0 +1,18 @@
+[
+    {
+        "Id": "001",
+        "Name": "Project Name 1",
+        "AverageRating": 4.6,
+        "ReleaseYear": 2010,
+        "Url": "http://www.netflix.com/Movie/Bag_It/70153545",
+        "Rating": "NR"
+    },
+    {
+        "Id": "002",
+        "Name": "Project Name 2",
+        "AverageRating": 4.6,
+        "ReleaseYear": 2009,
+        "Url": "http://www.netflix.com/Movie/Lost_Boy_The_Next_Chapter/70171826",
+        "Rating": "NR"
+    }
+]

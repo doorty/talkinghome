@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--<html manifest="/cache.manifest">-->
+<html>
+<head>
+  <meta charset="UTF-8">
+	<title>Talking Home</title>
+	<!-- Mobile Settings -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+	<meta name="format-detection" content="telephone=no"/>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/libs/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body class="home">
+
+	<div id="home-wrapper">
+	
+		<form id="form-wrapper">
+		
+			<div class="input-wrapper">
+			
+				<input type="search" id="speech-input" class="clearable" placeholder="Talk to me" autocorrect='off' required x-webkit-speech autofocus>
+				<img class="loading" src="images/loading.gif" />
+				<a class="clear" id="speech-input-clear" href="#"></a>
+			</div>
+			
+		</form>
+		
+		<div id="shortcuts">
+			<ul>
+				<li id="study">Study Mode</li>
+				<li id="reading">Reading Mode</li>
+				<li id="party">Party Mode</li>
+				<li id="lights">Lights</li>
+				<li id="fan">Fan</li>
+				<li id="light">Light</li>
+				<li id="lamp">Lamp</li>
+				<li id="mood">Mood Light</li>
+			</ul>
+		</div>
+		
+		<div id="audio" style="display:none;">
+			<audio id="audio-control" preload="auto" autoplay="autoplay" src="audio/welcome.mp3" type="audio/mpeg" autobuffer />
+			</audio>
+		</div>
+		
+		<div id="commands-list">
+		
+		</div>
+
+	</div>
+	
+	<script type="text/javascript" src="js/libs/zepto.js"></script>
+	<script type="text/javascript" src="js/libs/underscore.js"></script>
+	<script type="text/javascript" src="js/libs/backbone.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
